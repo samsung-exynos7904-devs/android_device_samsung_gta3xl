@@ -6,6 +6,9 @@
 
 DEVICE_PATH := device/samsung/gta3xl
 
+# APEX
+OVERRIDE_TARGET_FLATTEN_APEX := true
+
 # Architecture
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv8-a
