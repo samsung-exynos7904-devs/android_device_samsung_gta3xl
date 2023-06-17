@@ -30,6 +30,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 
 TARGET_KERNEL_SOURCE := kernel/samsung/gta3xl
 TARGET_KERNEL_CONFIG := exynos7885-gta3xl_defconfig
+TARGET_KERNEL_LLVM_BINUTILS := false
 
 # Inherit the proprietary files
 include vendor/samsung/gta3xl/BoardConfigVendor.mk
