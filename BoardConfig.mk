@@ -81,6 +81,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 # Platform
 TARGET_BOARD_PLATFORM := exynos7904
 
+# SEPolicy
+include device/samsung_slsi/sepolicy/sepolicy.mk
+
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)/releasetools
 
