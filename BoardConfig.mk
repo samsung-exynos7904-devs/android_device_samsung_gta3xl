@@ -8,7 +8,7 @@ DEVICE_PATH := device/samsung/gta3xl
 
 # Architecture
 TARGET_ARCH := arm
-TARGET_ARCH_VARIANT := armv7-a-neon
+TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := generic
@@ -34,6 +34,7 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 
 TARGET_KERNEL_SOURCE := kernel/samsung/gta3xl
 TARGET_KERNEL_CONFIG := exynos7885-gta3xl_defconfig
+TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_VERSION := r416183b
 TARGET_KERNEL_CLANG_PATH := $(abspath .)/prebuilts/clang/kernel/$(HOST_PREBUILT_TAG)/clang-$(TARGET_KERNEL_CLANG_VERSION)
 TARGET_KERNEL_LLVM_BINUTILS := false
