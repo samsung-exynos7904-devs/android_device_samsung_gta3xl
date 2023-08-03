@@ -56,7 +56,6 @@ BOARD_DTB_CFG := $(DEVICE_PATH)/kernel/exynos7885.cfg
 BOARD_DTBO_CFG := $(DEVICE_PATH)/kernel/gta3xl.cfg
 
 BOARD_CUSTOM_BOOTIMG := true
-BOARD_CUSTOM_BOOTIMG_MK := $(DEVICE_PATH)/mkbootimg.mk
 
 TARGET_KERNEL_SOURCE := kernel/samsung/gta3xl
 TARGET_KERNEL_CONFIG := exynos7885-gta3xl_defconfig
